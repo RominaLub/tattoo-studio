@@ -1,0 +1,12 @@
+.agb{
+    padding: 2rem;
+    color: rgb(150, 148, 148);
+}
+
+/*punkt 3 < ind > einfügen*/
+
+.formAGB {
+    margin: 2rem 5rem;
+    border: 2px solid black;
+    padding: 0.5rem;
+}

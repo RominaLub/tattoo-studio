@@ -1,0 +1,80 @@
+.gif {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*styling for team container*/
+.containerTeam {
+    width: 60%;
+    margin: 2rem auto;
+    padding: 1rem;
+    /* box-shadow: 3px 1px 6px 6px rgba(66, 66, 66, 0.8); */
+    background-color: rgb(66, 66, 66);
+    opacity: 0.95;
+}
+
+/*styling part: Intro*/
+.containerIntro {
+    margin-bottom: 5rem;
+    /*text styling*/
+    text-align: center;
+    color: aliceblue
+}
+
+/*styling in both parts*/
+.imageBottel, .imageTeam {
+    width: 350px;
+    height: 400px;
+}
+.textBottel, .textTeam {
+    /*section styling*/
+    position: relative;
+    width: 70%;
+    height: max-content;
+    padding: 10px;
+    top: 1rem;
+    background-color: rgb(66, 66, 66);
+    /*text styling*/
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 200;
+}
+/*styling part: Bottel*/
+.bottel {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin-bottom: 5rem;
+}
+.textBottel {
+    left: -2rem;
+    box-shadow: 3px 3px 3px 1px rgba(189, 189, 189, 0.8);
+}
+.linkBali {
+    /*text styling*/
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/*styling part: Team*/
+.team {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.textTeam {
+    /*section styling*/
+    left: 2rem;
+    box-shadow: -3px 3px 3px 1px rgba(189, 189, 189, 0.8);
+}
+
+
+@media screen and (max-width:600px) {
+    .textBottel, .textTeam {
+        position: unset;
+    }
+    .bottel, .team {
+        display: flex;
+        flex-direction: column;
+    }
+}

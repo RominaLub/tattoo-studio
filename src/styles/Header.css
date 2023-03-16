@@ -1,0 +1,29 @@
+/*header with logo*/
+.header {
+    background-color: rgb(34, 33, 33);
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.header h1 {
+    /*section styling*/
+    display: inline-flex;
+    /*text styling*/
+    color: aliceblue;
+    align-items: center;
+    margin: 0 1rem;
+}
+.header img {
+    /*section styling*/
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+@media screen and (max-width:600px) {
+    .header h1 {
+        font-size: 20px;
+    }
+    
+}
