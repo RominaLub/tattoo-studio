@@ -1,0 +1,14 @@
+.q_a {
+    width: 80%;
+    margin: 2rem auto;
+    background-color: rgb(66, 66, 66);
+    color: rgb(240, 248, 255, 0.6);
+    box-shadow: 3px 1px 6px 6px rgba(66, 66, 66, 0.6);
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.heading_QA {
+    color: aliceblue;
+    padding-bottom: 1rem;
+}

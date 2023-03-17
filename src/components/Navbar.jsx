@@ -18,7 +18,7 @@ function NavBar() {
               <li> <NavLink to="/" className="navlink">Home</NavLink> </li>
               <li> <NavLink to="/" className="navlink">Leistungen</NavLink> </li>
               <li> <NavLink to="/gallery" className="navlink">Gallerie</NavLink> </li>
-              <li> <NavLink to="/" className="navlink">Fragen & Antworten</NavLink> </li>
+              <li> <NavLink to="/questions" className="navlink">Fragen & Antworten</NavLink> </li>
               <li> <NavLink to="/" className="navlink">Gutscheine & Aktionen</NavLink> </li>
               <li> <NavLink to="/contact" className="navlink">Kontakt</NavLink> </li>
             </ul>
